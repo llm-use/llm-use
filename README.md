@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="llm-use.png" alt="PolyMCP Logo" width="500"/>
+  <img src="llm-use.png" alt="llm-use_Logo" width="500"/>
 
 [![License](https://img.shields.io/github/license/llm-use/llm-use)](https://github.com/llm-use/llm-use/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/llm-use/llm-use)](https://github.com/llm-use/llm-use/stargazers)
