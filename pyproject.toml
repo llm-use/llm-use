@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-use"
+version = "0.2.0"
+description = "Universal LLM orchestrator with router, TUI, scraping, and MCP support."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Vincenzo" }]
+dependencies = [
+  "requests>=2.31.0"
+]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.32.0"]
+openai = ["openai>=1.0.0"]
+scrape = ["beautifulsoup4>=4.12.0"]
+playwright = ["playwright>=1.43.0"]
+mcp = ["polymcp>=0.1.0", "uvicorn>=0.30.0"]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+llm-use = "llm_use:main"
+
+[tool.setuptools]
+py-modules = ["llm_use"]

@@ -1,0 +1,26 @@
+{
+  "full_patterns": [
+    "\\bcompare\\b",
+    "\\bresearch\\b",
+    "\\bsources?\\b",
+    "\\bcitations?\\b",
+    "\\bfrom\\s+\\d+\\s+sources\\b",
+    "\\bbenchmark\\b",
+    "\\btrade\\-?offs?\\b",
+    "\\bpros\\s+and\\s+cons\\b",
+    "\\btable\\b",
+    "\\bjson\\b"
+  ],
+  "simple_patterns": [
+    "\\bexplain\\b",
+    "\\bdefine\\b",
+    "\\brewrite\\b",
+    "\\bsummarize\\b",
+    "\\bdraft\\b",
+    "\\boutline\\b",
+    "\\bbrainstorm\\b",
+    "\\blist\\b",
+    "\\bbullets?\\b",
+    "\\btranslate\\b"
+  ]
+}
